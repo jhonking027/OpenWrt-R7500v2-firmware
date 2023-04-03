@@ -21,3 +21,7 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 # rm -rf package/lean/luci-theme-argon  
 # git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
 # echo '=========Add argon-mod OK!========='
+
+# 添加gn 临时方案
+cd package
+svn co https://github.com/kenzok8/small-package/trunk/gn
